@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "instagrams",
+  "info": {
+    "singularName": "instagram",
+    "pluralName": "instagrams",
+    "displayName": "Instagram",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "post": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

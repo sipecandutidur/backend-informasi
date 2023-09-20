@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "corousels",
+  "info": {
+    "singularName": "corousel",
+    "pluralName": "corousels",
+    "displayName": "Corousel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "video": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "description": {
+      "type": "text"
+    },
+    "duration": {
+      "type": "biginteger"
+    }
+  }
+}
